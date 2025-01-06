@@ -2,10 +2,10 @@ name: ci-wf
 on: # events on which this workflow will triger
   push:
     branches:
-    - develop
+      - develop
   pull_request:
     branches:
-    - develop
+      - develop
 jobs:
   linting-job:
     runs-on: ubuntu-latest
